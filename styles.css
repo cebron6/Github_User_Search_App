@@ -1,7 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/* height: 777px  width: 327px  of mobile */
 
+:root{
+  /* lightmode */
+  --h1-lightmode: #2B3442;
+  --searchbtn: #0079ff;
+  --backgroundlight: #F6F8FF;
+  --container: #FEFEFE;
+  --bodytxt-color: #697C9A;
+  /* darkmode */
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+html, body{
+  height: 100%;
+}
+
+.container{
+  min-width: 327px;
+  max-width: 730px;
+  max-height: 777px;
+  min-height: 611px;
+  margin: 0 auto;
+}
+
