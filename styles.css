@@ -55,6 +55,7 @@ h1,h2{
 }
 
 /* TITLE WITH LIGHT-DARK-MODE */
+
 .top-section{
   display: flex;
   justify-content: space-between;
@@ -71,15 +72,16 @@ h1,h2{
   font-size: 0.81rem;
   font-weight: 700;
   color:#4B6A9B;
-  
 }
 .light-dark-tggle > img{
-  margin-left: 16px;
+  margin-left: 1em;
 }
 
-
-
 /* SEARCH BAR */
+.srch-bar{
+  background-color: #FEFEFE;
+  margin: 0 auto;
+}
 
 
 
