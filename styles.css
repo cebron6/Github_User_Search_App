@@ -1,5 +1,11 @@
+/* 
+    Author: Christopher C. Ebron
+    height: 667px  width: 327px  of mobile 
+    height: 586px  width: 730px Desktop
+    
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-/* height: 777px  width: 327px  of mobile */
 
 :root{
   /* lightmode */
@@ -8,8 +14,10 @@
   --backgroundlight: #F6F8FF;
   --container: #FEFEFE;
   --bodytxt-color: #697C9A;
-  /* darkmode */
 }
+
+/* GENERAL STYLES */
+
 *{
   margin: 0;
   padding: 0;
@@ -18,12 +26,12 @@
 html, body{
   height: 100%;
 }
-
 .container{
   min-width: 327px;
   max-width: 730px;
-  max-height: 777px;
-  min-height: 611px;
+  max-height: 667px;
+  min-height: 586px;
   margin: 0 auto;
 }
+
 

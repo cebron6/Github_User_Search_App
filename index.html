@@ -10,47 +10,50 @@
   <title>Frontend Mentor | GitHub user search app</title>
 </head>
 <body>
-  <main class="container">
+    <!-- Title with light-dark-mode -->
     <header class="top-section">
       <h1 class="devfinder">devfinder</h1>
       <a href="#" class="light-dark-tggle">light<img src="starter-code/assets/icon-moon.svg" alt="sun-image" /></a> 
     </header>
-
+    <!-- Search Bar -->
     <section class="srch-bar">
       <img src="starter-code/assets/icon-search.svg" alt="" class="search-glass">
       <input type="text" class="search" type="text" placeholder="Search Github Username..">
       <button class="srch-btn">Search</button>
     </section>
-    <section class="profile">
-      <img src="#" alt="profile-picture" class="profile-pic">
-      <div class="name-profile">
-        <h1 class="name">The Octocat</h1>
-        <h3 class="username">@octocat</h3>
-      </div>
-      <div class="join-date">joined august 10</div>
-    </section>
-    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ab animi beatae ipsa sunt fuga laudantium cumque inventore dignissimos alias veniam ducimus corporis quidem, aspernatur perferendis est necessitatibus perspiciatis quisquam ex neque doloribus unde! Sed dicta nisi quis consectetur ducimus.</p>
-    <section class="stats">
-      <div class="repos-sec">
-        <h4 class="repo">Repos</h4>
-        <h4 class="num-of-repos">1</h4>
-      </div>
-      <div class="follower-sec">
-        <h4 class="repo">Followers</h4>
-        <h4 class="num-of-followers">2</h4>
-      </div>
-      <div class="following-sec">
-        <h4 class="following">Following</h4>
-        <h4 class="num-of-following">3</h4>
-      </div>
-    </section>
-
-    <footer class="btm-links">
-        <a href="#" class="location"><img src="starter-code/assets/icon-location.svg">San Fransico</a>
-        <a href="#" class="github"><img src="starter-code/assets/icon-website.svg">http://github.com</a>
-        <a href="#" class="twitter"><img src="starter-code/assets/icon-twitter.svg">Not Available</a>
-        <a href="#" class="building"><img src="starter-code/assets/icon-company.svg">@github</a>
-    </footer>
+    <!-- Profile -->
+    <main class="main">
+      <header class="profile">
+        <img src="#" alt="profile-picture" class="profile-pic">
+        <div class="name-profile">
+          <h1 class="name">The Octocat</h1>
+          <h3 class="username">@octocat</h3>
+        </div>
+        <div class="join-date">joined august 10</div>
+      </header>
+      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ab animi beatae ipsa sunt fuga laudantium cumque inventore dignissimos alias veniam ducimus corporis quidem, aspernatur perferendis est necessitatibus perspiciatis quisquam ex neque doloribus unde! Sed dicta nisi quis consectetur ducimus.</p>
+      <!-- Stats -->
+      <section class="stats">
+        <div class="col-1">
+          <h4 class="repo">Repos</h4>
+          <p class="num-of-repos">1</p>
+        </div>
+        <div class="col-2">
+          <h4 class="repo">Followers</h4>
+          <p class="num-of-followers">2</p>
+        </div>
+        <div class="col-3">
+          <h4 class="following">Following</h4>
+          <p class="num-of-following">3</p>
+        </div>
+      </section>
+      <!-- Bottom Links -->
+      <footer class="btm-links">
+          <a href="#" class="location"><img src="starter-code/assets/icon-location.svg">San Fransico</a>
+          <a href="#" class="github"><img src="starter-code/assets/icon-website.svg">http://github.com</a>
+          <a href="#" class="twitter"><img src="starter-code/assets/icon-twitter.svg">Not Available</a>
+          <a href="#" class="building"><img src="starter-code/assets/icon-company.svg">@github</a>
+      </footer>
   </main>
 </body>
 </html>
