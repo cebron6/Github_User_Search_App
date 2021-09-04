@@ -26,12 +26,30 @@
 html, body{
   height: 100%;
 }
-.container{
+.wrapper{
   min-width: 327px;
   max-width: 730px;
   max-height: 667px;
   min-height: 586px;
   margin: 0 auto;
 }
+
+/* TYPOGRAPHY */
+
+h1,h2,h3,h3,p,a,input{
+  font-family: 'Space mono', sans-serif;
+  font-weight: 400;
+}
+h1,h2{
+  font-weight: 700;
+}
+
+/* TITLE WITH LIGHT-DARK-MODE */
+
+
+
+
+/* SEARCH BAR */
+
 
 
