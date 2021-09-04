@@ -14,6 +14,7 @@
   --backgroundlight: #F6F8FF;
   --container: #FEFEFE;
   --bodytxt-color: #697C9A;
+  --DevFinder-clr: #222731;
 }
 
 /* GENERAL STYLES */
@@ -25,13 +26,22 @@
 }
 html, body{
   height: 100%;
+  background-color: var(--backgroundlight);
 }
 .wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
   min-width: 327px;
   max-width: 730px;
   max-height: 667px;
   min-height: 586px;
-  margin: 0 auto;
+  
+}
+.top-section,.srch-bar,.main{
+  width: 87.2%;
 }
 
 /* TYPOGRAPHY */
@@ -45,7 +55,27 @@ h1,h2{
 }
 
 /* TITLE WITH LIGHT-DARK-MODE */
-
+.top-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 0 auto;
+}
+.devfinder{
+  font-size: 1.625rem;
+  color: var(--DevFinder-clr);
+  line-height: 2.407rem;
+}
+.light-dark-tggle{
+  text-decoration: none;
+  font-size: 0.81rem;
+  font-weight: 700;
+  color:#4B6A9B;
+  
+}
+.light-dark-tggle > img{
+  margin-left: 16px;
+}
 
 
 
