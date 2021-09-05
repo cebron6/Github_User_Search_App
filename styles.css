@@ -1,5 +1,5 @@
 /* 
-    Author: Christopher C. Ebron
+    Author: Chris C. Ebron
     height: 667px  width: 327px  of mobile 
     height: 586px  width: 730px Desktop
     
@@ -87,6 +87,15 @@ h1,h2{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.search-glass{
+  flex-grow: 1;
+}
+input{
+  flex-grow: 2;
+}
+.srch-btn{
+  flex-grow: 1;
 }
 
 
