@@ -37,7 +37,7 @@ html, body{
   min-width: 327px;
   max-width: 730px;
   max-height: 667px;
-  min-height: 586px;
+  min-height: 611px;
   
 }
 .top-section,.srch-bar,.main{
@@ -60,7 +60,7 @@ h1,h2{
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  margin: 0 auto;
+  margin: 4.647vh auto 5.397vh auto;
 }
 .devfinder{
   font-size: 1.625rem;
@@ -79,8 +79,14 @@ h1,h2{
 
 /* SEARCH BAR */
 .srch-bar{
-  background-color: #FEFEFE;
+  background-color: hsl(0, 0%, 100%);
   margin: 0 auto;
+  height: 7.8vh;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
