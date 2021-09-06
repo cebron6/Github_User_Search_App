@@ -46,11 +46,11 @@ html, body{
 
 /* TYPOGRAPHY */
 
-h1,h2,h3,h3,p,a,input{
+h1,h2,h3,h3,p,a,input,button{
   font-family: 'Space mono', sans-serif;
   font-weight: 400;
 }
-h1,h2{
+h1,h2,button{
   font-weight: 700;
 }
 
@@ -89,13 +89,20 @@ h1,h2{
   align-items: center;
 }
 .search-glass{
-  flex-grow: 1;
+  margin: auto 0.5rem auto 1rem;
 }
 input{
-  flex-grow: 2;
+  height: 100%;
+  width: 56.27%;
+  border: none;
 }
 .srch-btn{
-  flex-grow: 1;
+  margin: auto;
+  padding: 0.78rem 1rem;
+  border-radius: 8px;
+  background-color: #0079FF;
+  color:hsl(0, 0%, 100%);
+  border: 0;
 }
 
 
