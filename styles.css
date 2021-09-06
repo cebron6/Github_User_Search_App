@@ -78,10 +78,11 @@ h1,h2,button{
 }
 
 /* SEARCH BAR */
-.srch-bar{
+.srch-wrapper{
   background-color: hsl(0, 0%, 100%);
   margin: 0 auto;
   height: 7.8vh;
+  width: 87.2%;
   border-radius: 8px;
   box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.1);
   display: flex;
