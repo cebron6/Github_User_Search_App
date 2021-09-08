@@ -82,6 +82,7 @@ h1,h2,button{
 }
 
 /* SEARCH BAR */
+
 .srch-wrapper{
   margin: 0 auto 1rem auto;
   height: 7.8vh;
@@ -112,6 +113,9 @@ input{
 .main{
   height: 66.54vh;          
 }
+
+/* HEADER */
+
 .profile{
   display: flex;
   justify-content: center;
@@ -138,6 +142,18 @@ input{
 .username{
   color: var(--searchbtn);
 }
+
+/* BODY CONTENT */
+
+.bio{
+  font-size: 0.8125rem;
+  line-height: 1.563rem;
+  color: var(--bodytxt-color);
+  width: 85.3%;
+  margin: 0 auto;
+
+}
+
 
 
 
