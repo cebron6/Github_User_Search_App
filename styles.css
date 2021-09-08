@@ -150,6 +150,7 @@ input{
   line-height: 1.563rem;
   color: var(--bodytxt-color);
   width: 85.3%;
+  height: 9.65vh;
   margin: 0 auto;
 }
 
@@ -178,6 +179,26 @@ input{
 }
 
 /* BOTTOM LINKS */
+
+.btm-links{
+  width: 56.57%;
+  height: 16.34vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1.5rem 7.375rem  3rem 1.5rem;
+  
+}
+.btm-links a{
+  font-size: 0.8125rem;
+  line-height: 1.2rem;
+  text-decoration: none;
+  color: var(--bodytxt-color);
+}
+.btm-links img{
+  padding-right: 0.8125rem;
+}
+
 
 
 
