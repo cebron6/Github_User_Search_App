@@ -1,7 +1,6 @@
 /* 
     Author: Chris C. Ebron
-    height: 667px  width: 327px  of mobile 
-    height: 586px  width: 730px Desktop
+    Github User Search App
     
 */
 
@@ -199,7 +198,15 @@ input{
   padding-right: 0.8125rem;
 }
 
+/* 
+                      TABLET VERSION 
+  width of entire screen:  768px      content width:  573px
+  height of entire screen: 1024px     content height: 648px
+*/
 
+@media(min-width: 768px){
+  
+}
 
 
 
