@@ -112,5 +112,32 @@ input{
 .main{
   height: 66.54vh;          
 }
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 2rem 4.375rem 1.75rem 1.5rem;
+
+}
+.profile-pic{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 1.188rem;
+}
+.name{
+  font-size: 1rem;
+  line-height: 1.48rem;
+  color: var(--h1-lightmode);
+}
+.username, .join-date{
+  font-size: 0.8125rem;
+  line-height: 1.2rem;
+}
+.username{
+  color: var(--searchbtn);
+}
+
 
 
