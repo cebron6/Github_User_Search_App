@@ -93,6 +93,7 @@ h1,h2,button{
   margin: auto 0.5rem auto 1rem;
 }
 input{
+  line-height: 1.563rem;
   height: 100%;
   width: 56.27%;
   border: none;
@@ -206,7 +207,7 @@ input{
 @media(min-width: 768px){
   .wrapper{
     width: 74.61%;
-    height: 63.28vh;
+    /* height: 63.28vh;                    FIXME */
     margin: 13.67vh auto 23vh auto;
   }
   .top-section,.srch-wrapper,.main{
@@ -214,6 +215,24 @@ input{
   }
   .top-section{
     margin: 0 auto 3.52vh auto;
+  }
+  .srch-wrapper{
+    height: 6.74vh;
+    margin-bottom: 1.5rem;
+  }
+  .search-glass{
+    margin: auto 1.496rem auto 2rem;
+  }
+  .search{
+    font-size: 1.125rem;
+  }
+  .srch-btn{
+    font-size: 1rem;
+    line-height: 1.48rem;
+    width: 106px; 
+    height: 50px;
+    padding: 0.781rem auto 0.84375rem auto;
+    margin-right: 0.625rem;
   }
   
 }
