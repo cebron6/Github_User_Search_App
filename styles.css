@@ -34,11 +34,11 @@ html, body{
   flex-direction: column;
   margin: 0 auto;
   min-width: 327px;
-  max-width: 730px;
+  max-width: 730px; 
   min-height: 611px;
   
 }
-.top-section,.srch-bar,.main{
+.top-section,.srch-wrapper,.main{
   width: 87.2%;
 }
 .srch-wrapper, .main{
@@ -85,7 +85,6 @@ h1,h2,button{
 .srch-wrapper{
   margin: 0 auto 1rem auto;
   height: 7.8vh;
-  width: 87.2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,6 +204,17 @@ input{
 */
 
 @media(min-width: 768px){
+  .wrapper{
+    width: 74.61%;
+    height: 63.28vh;
+    margin: 13.67vh auto 23vh auto;
+  }
+  .top-section,.srch-wrapper,.main{
+    width: 100%; 
+  }
+  .top-section{
+    margin: 0 auto 3.52vh auto;
+  }
   
 }
 
