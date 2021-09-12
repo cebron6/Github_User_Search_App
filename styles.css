@@ -216,6 +216,8 @@ input{
   .top-section{
     margin: 0 auto 3.52vh auto;
   }
+    /* SEARCH BAR */
+
   .srch-wrapper{
     height: 6.74vh;
     margin-bottom: 1.5rem;
@@ -233,6 +235,31 @@ input{
     height: 50px;
     padding: 0.781rem auto 0.84375rem auto;
     margin-right: 0.625rem;
+  }
+
+  /* MAIN HEADER */
+
+  .profile{
+    width: 58.29%;
+    height: 11.426vh;
+    margin: 2.5rem 12.44rem 1.5rem 2.5rem;
+  }
+  .profile-pic{
+    width: 117px;
+    height: 117px;
+    margin-right: 2.31rem;
+  }
+  .name{
+    font-size: 1.5rem;
+    line-height: 2.41rem;
+  }
+  .username{
+    font-size: 1rem;
+    line-height: 1.48rem;
+  }
+  .join-date{
+    font-size: 0.9375rem;
+    line-height: 1.389rem;
   }
   
 }
