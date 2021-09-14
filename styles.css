@@ -26,6 +26,7 @@
 html, body{
   height: 100%;
   background-color: var(--backgroundlight);
+  
 }
 .wrapper{
   display: flex;
@@ -312,6 +313,7 @@ input{
      Height of content: 586px                      Height of screen: 900px     
 */
 @media(min-width: 1440px){
+  /* //FIXMETHI */
 
 }
 
