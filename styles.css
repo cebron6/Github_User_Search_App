@@ -313,7 +313,12 @@ input{
      Height of content: 586px                      Height of screen: 900px     
 */
 @media(min-width: 1440px){
-  /* //FIXMETHI */
+  .top-section{
+    margin-bottom: 4vh;
+  }
+  .srch-wrapper{
+    height: 7.67vh;
+  }
 
 }
 
