@@ -106,6 +106,7 @@ input{
   background-color: var(--searchbtn);
   color:hsl(0, 0%, 100%);
   border: 0;
+  font-size: 1rem;
 }
 
 /* MAIN PROFILE*/
