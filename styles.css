@@ -15,6 +15,11 @@
   --bodytxt-color: #697C9A;
   --DevFinder-clr: #222731;
 }
+/*
+              MOBILE 
+  content width: 327px
+  content height: 611px 
+*/
 
 /* GENERAL STYLES */
 
@@ -236,7 +241,7 @@ input{
     line-height: 1.48rem;
     width: 106px; 
     height: 50px;
-    padding: 0.781rem auto 0.84375rem auto;
+    padding: 0.781rem 0.78rem 0.84375rem 0.78rem;
     margin-right: 0.625rem;
   }
 
