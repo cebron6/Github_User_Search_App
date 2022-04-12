@@ -2,6 +2,9 @@
   This file will contain any variables, mixins, and utility classes
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
 /* Variables */
 
 // Light mode colors
@@ -18,4 +21,6 @@ $dark-primary-background: rgb(20, 29, 47);
 $dark-card-background: #1E2A47;
 
 // Typography
+$font-stack: 'Space Mono';
+
 
