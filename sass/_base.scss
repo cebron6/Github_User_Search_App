@@ -22,5 +22,14 @@ $dark-card-background: #1E2A47;
 
 // Typography
 $font-stack: 'Space Mono';
+$font-weights: ("regular": 400, "bold": 700);
+//line heights are mapped according to the element they belong to
+$line-height: ("h1": 38px, "h2": 33px, "h3": 24px, "h4": 20px, "body": 25px);
 
+
+// h1{
+//   color: purple;
+//   font-family: $font-stack;
+//   font-weight: map-get($font-weights, 'bold');
+// }
 
