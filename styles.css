@@ -1,16 +1,17 @@
-/* 
-  This file will contain any imports
-*/
-/* 
-  This file will contain any variables, mixins, and utility classes
-*/
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-/* Variables */
-/* 
-  This file will contain anything reusable such as buttons, searchbars, nav
-*/
-/* 
-  This file will contain any layouts such as containers, grid systems, and resets
-*/
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+header {
+  width: 327px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=styles.css.map */

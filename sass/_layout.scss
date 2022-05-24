@@ -1,5 +1,28 @@
-/* 
-  This file will contain any layouts such as containers, grid systems, and resets
-*/
 
-//@use 'base';
+ // This file will contain any layouts such as containers, grid systems, and resets
+// Using a mobile first approach
+
+
+@use 'base';
+
+// Header 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  
+}
+
+header {
+  width: 327px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+// Search bar 
+
+
+// Body 

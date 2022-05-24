@@ -1,11 +1,11 @@
-/* 
-  This file will contain any variables, mixins, and utility classes
-*/
 
+//This file will contain any variables, mixins, and utility classes
+
+// Google font import
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 
-/* Variables */
+// Variables
 
 // Light mode colors
 $btn: #0079FF;
@@ -23,13 +23,7 @@ $dark-card-background: #1E2A47;
 // Typography
 $font-stack: 'Space Mono';
 $font-weights: ("regular": 400, "bold": 700);
-//line heights are mapped according to the element they belong to
-$line-height: ("h1": 38px, "h2": 33px, "h3": 24px, "h4": 20px, "body": 25px);
 
 
-// h1{
-//   color: purple;
-//   font-family: $font-stack;
-//   font-weight: map-get($font-weights, 'bold');
-// }
+
 
