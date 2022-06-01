@@ -6,20 +6,14 @@
 @use 'base';
 
 // Header 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  margin: auto;
-  
+.wrapper {                    // I used a wrapper so at not point does content width take up page
+ max-width: 327px;            // Max width is recommended instead of width, 327 is the width in mobile
+ margin: auto;
 }
 
 header {
-  width: 327px;
-  height: 38px;
-  display: flex;
-  justify-content: space-between;
+  width: auto;                // auto ensures there is no overflow % will cause an overflow of padding and margin
+  
 }
 
 // Search bar 

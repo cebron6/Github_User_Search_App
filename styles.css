@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  max-width: 327px;
   margin: auto;
 }
 
 header {
-  width: 327px;
+  width: auto;
   height: 38px;
   display: flex;
   justify-content: space-between;
