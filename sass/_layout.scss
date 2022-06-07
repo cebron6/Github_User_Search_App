@@ -3,16 +3,36 @@
 // Using a mobile first approach
 
 
-@use 'base';
+@import 'base';
+
+//reset
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: $light-primary-background;
+}
+
 
 // Header 
 .wrapper {                    // I used a wrapper so at not point does content width take up page
  max-width: 327px;            // Max width is recommended instead of width, 327 is the width in mobile
  margin: auto;
+ 
 }
 
 header {
   width: auto;                // auto ensures there is no overflow % will cause an overflow of padding and margin
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+}
+.header__devfinder{
+  font-size: 26px;
+  font-family: $font-stack;
   
 }
 
