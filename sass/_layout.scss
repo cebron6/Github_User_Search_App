@@ -14,14 +14,14 @@
 body{
   height: 100vh;
   background-color: $light-primary-background;
+
 }
 
 
 // Header 
 .wrapper {                    // I used a wrapper so at not point does content width take up page
  max-width: 327px;            // Max width is recommended instead of width, 327 is the width in mobile
- margin: auto;
- 
+ margin: 31px auto auto;      // 31 top rest is auto 
 }
 
 header {
@@ -32,8 +32,25 @@ header {
 }
 .header__devfinder{
   font-size: 26px;
-  font-family: $font-stack;
-  
+  font-family: $font-stack;  
+}
+.header__lghtDrkToggle{
+  width: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;               //vertically align text within div
+  font-family: $font-stack; 
+  color: $light-bottomlink; 
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 19.25px;  
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-align: right;         
+}
+.sunimg{
+  height: 20px;
+  width: 20px;
 }
 
 // Search bar 
