@@ -14,18 +14,17 @@
 body{
   height: 100vh;
   background-color: $light-primary-background;
-
 }
 
 
 // Header 
-.wrapper {                    // I used a wrapper so at not point does content width take up page
- max-width: 327px;            // Max width is recommended instead of width, 327 is the width in mobile
- margin: 31px auto auto;      // 31 top rest is auto 
+.wrapper {                    
+ max-width: 327px;            
+ margin: 31px auto auto;      
 }
 
 header {
-  width: auto;                // auto ensures there is no overflow % will cause an overflow of padding and margin
+  width: auto;                
   display: flex;
   justify-content: space-between;
   height: 38px;
