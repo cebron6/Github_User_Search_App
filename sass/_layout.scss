@@ -5,43 +5,42 @@
 
 @import 'base';
 
-//reset
+//reset and content wrapper
 *{
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
 }
-body{
+html, body{
   height: 100vh;
   background-color: $light-primary-background;
 }
-
-
-// Header 
 .wrapper {                    
  max-width: 327px;            
- margin: 31px auto auto;      
+ margin: 2rem auto auto;      
 }
+
+// Header
 
 header {
   width: auto;                
   display: flex;
   justify-content: space-between;
-  height: 38px;
+  margin-bottom: 1.75rem;
 }
 .header__devfinder{
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: $font-stack;  
 }
 .header__lghtDrkToggle{
   width: 78px;
   display: flex;
   justify-content: space-between;
-  align-items: center;               //vertically align text within div
+  align-items: center;               
   font-family: $font-stack; 
   color: $light-bottomlink; 
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 700;       //TODO
   line-height: 19.25px;  
   font-size: 13px;
   letter-spacing: 2.5px;
@@ -53,6 +52,30 @@ header {
 }
 
 // Search bar 
+.srch{
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  border:1px black solid;
+  height:  60px;        //TODO erase, this is just to see border
 
+}
+.search__img{
+  height: 20px;
+  width: 20px;
+  margin: auto 9px auto 1rem;
+}
+.search__input{                 //TODO fix font styling on input
+  border: none;
+  font-family: $font-stack;
+  font-size: 0.8125rem;
+
+  line-height: 1.5625rem;
+  font-weight: 400;    //TODO
+  margin-right: 7px;
+  width: 57%;
+  
+  
+}
 
 // Body 
