@@ -1,75 +1,332 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-* {
-  padding: 0;
+/* 
+    Author: Chris C. Ebron
+    Github User Search App
+    Date: 11/14/21
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root{
+  /* lightmode */
+  --h1-lightmode: #2B3442;
+  --searchbtn: #0079ff;
+  --backgroundlight: #F6F8FF;
+  --container: #FEFEFE;
+  --bodytxt-color: #697C9A;
+  --DevFinder-clr: #222731;
+}
+/*
+              MOBILE 
+  content width: 327px
+  content height: 611px 
+*/
+
+/* GENERAL STYLES */
+
+*{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
-html, body {
-  height: 100vh;
-  background-color: #F2F2F2;
+html, body{
+  height: 100%;
+  background-color: var(--backgroundlight);
+  
 }
-
-.wrapper {
-  max-width: 327px;
-  margin: 2rem auto auto;
-}
-
-header {
-  width: auto;
+.wrapper{
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 1.75rem;
-}
-
-.header__devfinder {
-  font-size: 1.625rem;
-  font-family: "Space Mono";
-}
-
-.header__lghtDrkToggle {
-  width: 78px;
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  font-family: "Space Mono";
-  color: #4B6A9B;
-  text-decoration: none;
-  font-weight: 700;
-  line-height: 19.25px;
-  font-size: 13px;
-  letter-spacing: 2.5px;
-  text-align: right;
+  flex-direction: column;
+  margin: 0 auto;
+  min-width: 327px;
+  max-width: 730px; 
+  min-height: 611px;
+  
+}
+.header,.srch,.main{
+  width: 87.2%;
+}
+.srch, .main{
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
-.sunimg {
-  height: 20px;
-  width: 20px;
-}
+/* TYPOGRAPHY */
 
-.srch {
-  display: flex;
-  align-items: center;
-  border-radius: 15px;
-  border: 1px black solid;
-  height: 60px;
-}
-
-.search__img {
-  height: 20px;
-  width: 20px;
-  margin: auto 9px auto 1rem;
-}
-
-.search__input {
-  border: none;
-  font-family: "Space Mono";
-  font-size: 0.8125rem;
-  line-height: 1.5625rem;
+h1,h2,h3,h4,p,a,input,button{
+  font-family: 'Space mono', sans-serif;
   font-weight: 400;
-  margin-right: 7px;
-  width: 57%;
+}
+h1,h2,button{
+  font-weight: 700;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/* TITLE WITH LIGHT-DARK-MODE */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 4.647vh auto 5.397vh auto;
+}
+.header_devfinder{
+  font-size: 1.625rem;
+  color: var(--DevFinder-clr);
+  line-height: 2.407rem;
+}
+.header__lghtDrkToggle{
+  text-decoration: none;
+  font-size: 0.81rem;
+  font-weight: 700;
+  color:#4B6A9B;
+}
+.sunimg{
+  margin-left: 1em;
+}
+
+/* SEARCH BAR */
+
+.srch{
+  margin: 0 auto 1rem auto;
+  height: 7.8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search__img{
+  margin: auto 0.5rem auto 1rem;
+}
+input{
+  line-height: 1.563rem;
+  height: 100%;
+  width: 56.27%;
+  border: none;
+}
+.btn{
+  margin: auto;
+  padding: 0.78rem 1rem;
+  border-radius: 8px;
+  background-color: var(--searchbtn);
+  color:hsl(0, 0%, 100%);
+  border: 0;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+/* MAIN PROFILE*/
+
+.main{
+  height: 66.54vh;          
+}
+
+/* HEADER */
+
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 2rem 4.375rem 1.75rem 1.5rem;
+
+}
+.profile__pic{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 1.188rem;
+}
+.profile__name{
+  font-size: 1rem;
+  line-height: 1.48rem;
+  color: var(--h1-lightmode);
+}
+.profile__username, .profile__join-date{
+  font-size: 0.8125rem;
+  line-height: 1.2rem;
+}
+.profile__username{
+  color: var(--searchbtn);
+}
+
+/* BODY CONTENT */
+
+.bio{
+  font-size: 0.8125rem;
+  line-height: 1.563rem;
+  color: var(--bodytxt-color);
+  width: 85.3%;
+  height: 9.65vh;
+  margin: 0 auto;
+}
+
+/* STATS */
+
+.stats{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85.3%;
+  height: 10.94vh;
+  border-radius: 8px;
+  background-color: var(--backgroundlight);
+  margin: 28px auto 24px auto;
+}
+.stats h4{
+  font-size: 0.6875rem;
+  line-height: 1.018rem;
+  color: var(--bodytxt-color);
+}
+.stats h2{
+  font-size: 1rem;
+  line-height: 1.48rem;
+  text-align: center;
+  color: var(--h1-lightmode);
+}
+
+/* BOTTOM LINKS */
+
+.btm-links{
+  width: 56.57%;
+  height: 16.34vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1.5rem 7.375rem  3rem 1.5rem;
+  
+}
+.btm-links a{
+  font-size: 0.8125rem;
+  line-height: 1.2rem;
+  text-decoration: none;
+  color: var(--bodytxt-color);
+}
+.btm-links img{
+  padding-right: 0.8125rem;
+}
+
+/* 
+                      TABLET VERSION 
+  width of entire screen:  768px      content width:  573px
+  height of entire screen: 1024px     content height: 648px
+*/
+
+@media(min-width: 768px){
+  .wrapper{
+    width: 74.61%;
+    height: 63.28vh;                
+    margin: 13.67vh auto 23vh auto;
+  }
+  .top-section,.srch-wrapper,.main{
+    width: 100%; 
+  }
+  .top-section{
+    margin: 0 auto 3.52vh auto;
+  }
+    /* SEARCH BAR */
+
+  .srch-wrapper{
+    height: 6.74vh;
+    margin-bottom: 1.5rem;
+  }
+  .search-glass{
+    margin: auto 1.496rem auto 2rem;
+  }
+  .search{
+    font-size: 1.125rem;
+  }
+  .btn{
+    font-size: 1rem;
+    line-height: 1.48rem;
+    width: 106px; 
+    height: 50px;
+    padding: 0.781rem 0.78rem 0.84375rem 0.78rem;
+    margin-right: 0.625rem;
+  }
+
+  /* MAIN HEADER */
+
+  .main{
+    height: 46.97vh;
+  }
+  .profile{
+    width: 58.29%;
+    height: 11.426vh;
+    margin: 2.5rem 12.44rem 1.5rem 2.5rem;
+  }
+  .profile__pic{
+    width: 117px;
+    height: 117px;
+    margin-right: 2.31rem;
+  }
+  .name{
+    font-size: 1.5rem;
+    line-height: 2.41rem;
+  }
+  .username{
+    font-size: 1rem;
+    line-height: 1.48rem;
+  }
+  .join-date{
+    font-size: 0.9375rem;
+    line-height: 1.389rem;
+  }
+  
+  /* MAINBODY */
+
+  .bio{
+    width: 86.04%;
+    height: 4.88vh;
+    font-size: 0.9375rem;
+    line-height: 1.56rem;
+  }
+
+  /* STATS */
+
+  .stats{
+    width: 86.04%;
+    height: 8.3vh;
+    margin-top: 2rem;
+    margin-bottom: 1.875rem;
+  }
+  .stats h4{
+    font-size: 0.8125rem;
+    line-height: 1.2rem;
+  }
+  .stats h2{
+    font-size: 1.375rem;
+    line-height: 2.04rem;
+  }
+
+  /* BOTTOM LINKS */
+
+  .btm-links{
+    flex-wrap: wrap;
+    width: 74.87%;
+    height: 6.15vh;
+    margin: 0 6.5rem 2.5rem 2.5rem;
+
+  }
+  .btm-links a{
+    font-size: 0.9375rem;
+    line-height: 1.389rem;
+  }
+}
+
+/* 
+                                    DESKTOP VERSION
+     Width of content:  730px                      Width of screen:  1440px
+     Height of content: 586px                      Height of screen: 900px     
+*/
+@media(min-width: 1440px){
+  .top-section{
+    margin-bottom: 4vh;
+  }
+  .srch-wrapper{
+    height: 7.67vh;
+  }
+
+} 
+
+
